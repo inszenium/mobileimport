@@ -1,0 +1,26 @@
+{
+    "name":"inszenium/mobileimport",
+    "description":"Mobileimport extension for Contao Open Source CMS",
+    "keywords":["contao", "mobile", "autoscout", "pkw.de"],
+    "type":"contao-module",
+    "license":"LGPL-3.0+",
+    "authors":[
+        {
+            "name":"inszenium",
+            "homepage":"https://inszenium.de"
+        }
+    ],
+    "require":{
+        "php":">=5.4",
+	"inszenium/mobilecenter":"*",
+	"guzzlehttp/guzzle":">6.2"
+    },
+    "extra":{
+        "contao": {
+            "sources":{
+                "*": "system/modules/mobileimport"
+            }
+        }
+    },
+    "minimum-stability": "dev"
+}
